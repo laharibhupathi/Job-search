@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Job Search Portal</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="navbar">
+    <div class="logo">
+        <h2>💼 Job Search Portal</h2>
+        <p>Find your dream job here</p>
+    </div>
+
+    <div class="menu">
+        <a href="#">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+        <a href="login.html"><button>Login</button></a>
+        <a href="register.html"><button class="register">Register</button></a>
+    </div>
+    </div>
+    <div class="search-section">
+    <input type="text" id="searchBox" placeholder="Search jobs">
+    </div>
+    <h1 style="text-align:center;color:#0d47a1;">
+      Available Jobs
+    </h1>
+    <div class="job-card">
+      <h3>Python Developer</h3>
+      <p>Company: Infosys</p>
+      <p>Location: Hyderabad</p>
+      <button onclick="applyJob()">Apply</button>
+    </div>
+
+    <div class="job-card">
+      <h3>java Developer</h3>
+      <p>Company: TCS</p>
+      <p>Location: Bangalore</p>
+      <button onclick="applyJob()">Apply</button>
+    </div>
+
+    <div class="job-card">
+      <h3>Web Developer</h3>
+      <p>Company: Wipro</p>
+      <p>Location: Chennai</p>
+      <button onclick="applyJob()">Apply</button>
+    </div>
+
+    <div class="job-card">
+      <h3>Data Analyst</h3>
+      <p>Company: Accenture</p>
+      <p>Location: Pune</p>
+      <button onclick="applyJob()">Apply</button>
+    </div>
+    <div class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+        Welcome to Job Search Portal. This platform helps users search for jobs,
+        explore career opportunities, and apply for suitable positions easily.
+    </p>
+</div>
+
+<div class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@jobportal.com</p>
+    <p>Phone: +91 9876543210</p>
+</div>
+    <footer>
+    © 2026 Job Search Portal. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
